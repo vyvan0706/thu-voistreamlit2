@@ -16,8 +16,9 @@ import inspect
 import textwrap
 
 import streamlit as st
-
-
+import gtts
+from ftlangdetect import detect as lang_detector
+from deep_translator import GoogleTranslator
 def show_code(demo):
     """Showing the code of the demo."""
     show_code = st.sidebar.checkbox("Show code", True)
