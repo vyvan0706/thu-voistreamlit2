@@ -1,5 +1,5 @@
 import streamlit as st
-from gtts import gTTs
+import gtts
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
 
