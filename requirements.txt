@@ -2,5 +2,5 @@ altair
 numpy
 pandas
 pydeck
-streamlit
 gtts==2.2.1
+streamlit==1.19.0
