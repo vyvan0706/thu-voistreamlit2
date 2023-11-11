@@ -1,4 +1,5 @@
 import streamlit as st
+$ pip install gTTS
 import gtts
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
