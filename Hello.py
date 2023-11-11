@@ -1,5 +1,6 @@
 import streamlit as st
 import gtts
+dir(gtts)
 from ftlangdetect import detect as lang_detector
 from deep_translator import GoogleTranslator
 
